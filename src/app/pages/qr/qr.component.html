@@ -1,0 +1,12 @@
+<div class="qr-container">
+    <h2>QR Code Generator</h2>
+    <div class="input-container">
+      <label for="qr-input">Enter Link or Text:</label>
+      <input id="qr-input" type="text" [(ngModel)]="qrData" (input)="onInputChanged($event)">
+    </div>
+    <div class="qr-image">
+      <img *ngIf="qrImageUrl" [src]="qrImageUrl" alt="QR Code">
+      <a *ngIf="qrImageUrl" [href]="qrImageUrl" download="qrcode.png">Download QR Code</a>
+    </div>
+  </div>
+  
