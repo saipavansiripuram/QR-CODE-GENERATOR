@@ -1,3 +1,10 @@
+#Simple QR Generator Application
+
+#LINK :  [QR Generator](https://qrimagegenerator.web.app)
+
+Developed a dynamic QR Code Generator web application as part of a web development project. The application featured a user-friendly interface where users could input links or text and instantly generate QR codes. Leveraged Angular framework to implement real-time input updates and responsive design. The project also included styling enhancements with attention to modern design principles, resulting in an aesthetically pleasing interface. Users could download generated QR codes and the application ensured optimal user experience through thoughtful UI and efficient code implementation.
+
+
 # QrGeneratorApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
